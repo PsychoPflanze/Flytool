@@ -33,7 +33,7 @@ function Rocket(dna)
 		if(this.completed)
 		{
 			this.fitness *= 10;
-			this.fitness += (lifespan - count);
+			this.fitness += (400 - count);
 		}
 
 		if(this.crashed)
