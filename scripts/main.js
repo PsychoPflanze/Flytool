@@ -13,7 +13,7 @@ var genP;
 //Rectangle collision
 var rx = 100;
 var ry = 200
-var rw = 250;
+var rw = 300;
 var rh = 10;
 
 function setup()
@@ -61,7 +61,7 @@ function draw()
 	fill(255);
 	
 	//The obstacle
-	rect(100, 200, 250, 10);
+	rect(100, 200, 300, 10);
 
 	//The target
 	ellipse(target.x, target.y, 16, 16);
